@@ -1,0 +1,47 @@
+// Trimmed from a real `/v1/analyze/quick` result (docs/dermiq/sample-result.json, Phase 3, 2026-10-30).
+// Geometry (landmarks, polygons, anchors) and vendor advice text left out; score blocks kept as returned.
+const block = (ui_score: number, raw_score: number, reliability: string) => ({ ui_score, raw_score, reliability, score_engine: 'siglip2' });
+
+export const dermiqSample = {
+  id: '00000000-0000-4000-8000-000000000000',
+  status: 'completed',
+  analysis_type: 'quick',
+  result_json: {
+    all: { score: 76.94 },
+    skin_age: 33,
+    agegender: { age: 35, gender: 'female' },
+    skin_tone: { L: 48.78, a: 8.86, b: 15.59, ita: -4.48, monk_tone: 8, skin_color: '#8b6d5a', fitzpatrick: 'V' },
+    hd_acne: { whole: block(96, 93.47, 'low') },
+    hd_pore: { whole: block(67, 61.45, 'medium'), nose: block(65, 59.62, 'low'), cheek: block(66, 60.55, 'low'), forehead: block(65, 59.49, 'medium') },
+    hd_texture: { whole: block(81, 76.87, 'low') },
+    hd_wrinkle: {
+      whole: block(83, 79.81, 'medium'),
+      crowfeet: block(88, 85.34, 'high'),
+      forehead: block(83, 79.83, 'low'),
+      glabellar: block(95, 93.06, 'low'),
+      marionette: { ...block(97, 94.74, 'unreliable'), display: false },
+      nasolabial: block(74, 69.89, 'high'),
+      periocular: block(94, 91.23, 'low'),
+    },
+    hd_redness: block(95, 92.73, 'medium'),
+    hd_oiliness: block(88, 85.02, 'low'),
+    hd_dark_circle: block(72, 66.87, 'low'),
+    hd_firmness: block(87, 84.37, 'medium'),
+    hd_moisture: block(63, 56.74, 'medium'),
+    hd_radiance: block(72, 67.36, 'medium'),
+    hd_age_spot: block(84, 80.3, 'medium'),
+    hd_eye_bag: block(80, 76.31, 'medium'),
+    faceshape: 'Heart',
+    color: { eye_color: '#2c2925', lip_color: '#7e4e49', hair_color: '#78614e', eye_color_name: 'Dark Brown' },
+    _calibrated: true,
+    quality_confidence: 1,
+    image_dimensions: { width: 1088, height: 1088 },
+  },
+  mask_filenames: null,
+  mask_urls: null,
+  overall_score: 76.94,
+  skin_age: 33,
+  processing_time_ms: 6157,
+  error_code: null,
+  error_message: null,
+};

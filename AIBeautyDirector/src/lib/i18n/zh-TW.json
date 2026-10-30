@@ -1,0 +1,957 @@
+{
+  "common": {
+    "appName": "AI 美容總監",
+    "backHome": "回到首頁",
+    "signOut": "登出",
+    "retry": "再試一次",
+    "comingSoon": "即將推出",
+    "comingSoonMessage": "這個登入方式還沒開放。",
+    "close": "關閉"
+  },
+  "splash": {
+    "loading": "準備中"
+  },
+  "error": {
+    "title": "出了點問題",
+    "message": "不是你的問題，請稍後再試一次。"
+  },
+  "onboarding": {
+    "stepOf": "第 {{current}} 步，共 {{total}} 步",
+    "back": "上一步",
+    "continue": "繼續",
+    "finish": "完成",
+    "steps": {
+      "consent": {
+        "title": "開始之前",
+        "subtitle": "請選擇你的資料可以如何使用，之後也能在設定中更改。"
+      },
+      "basics": {
+        "title": "認識一下你",
+        "subtitle": "讓你的美容顧問知道怎麼稱呼你。"
+      },
+      "goals": {
+        "title": "你的肌膚目標",
+        "subtitle": "選出所有你想改善的項目。"
+      },
+      "level": {
+        "title": "你目前的保養習慣",
+        "subtitle": "你對保養步驟有多熟悉？"
+      },
+      "budget": {
+        "title": "預算與質地",
+        "subtitle": "我們的建議會在你覺得合適的範圍內。"
+      },
+      "reactions": {
+        "title": "有讓肌膚不適的成分嗎？",
+        "subtitle": "點選曾讓你產生反應的成分，我們會避開它們。"
+      },
+      "products": {
+        "title": "你正在使用的產品",
+        "subtitle": "加入你正在使用的產品。很多時候，你不需要再買新的東西。"
+      }
+    },
+    "consent": {
+      "required": "必要",
+      "optional": "選擇性",
+      "terms": {
+        "title": "我同意服務條款與隱私權政策"
+      },
+      "photo_analysis": {
+        "title": "分析我每週的肌膚照片",
+        "body": "私密保存，並非醫療評估。"
+      },
+      "model_training": {
+        "title": "協助改善分析",
+        "body": "匿名化的結果將用於改善我們的模型。"
+      },
+      "marketing": {
+        "title": "寄給我保養小技巧與優惠",
+        "body": "偶爾寄送最新消息與優惠，不會濫發。"
+      }
+    },
+    "basics": {
+      "name": "我們該怎麼稱呼你？",
+      "birthDate": "出生日期",
+      "birthDateHelper": "年滿 18 歲才能使用 AI Beauty Director。",
+      "year": "年",
+      "yearPlaceholder": "YYYY",
+      "month": "月",
+      "monthPlaceholder": "MM",
+      "day": "日",
+      "dayPlaceholder": "DD",
+      "gender": "性別"
+    },
+    "level": {
+      "hint": {
+        "beginner": "我們會從幾個溫和簡單的步驟開始。",
+        "intermediate": "我們會在你現有的習慣上調整。",
+        "advanced": "我們會和你一起微調更完整的保養流程。"
+      }
+    },
+    "budget": {
+      "budget": "每件產品的預算",
+      "textures": "喜歡的質地",
+      "texturesHelper": "選填，沒有偏好可以略過。"
+    },
+    "reactions": {
+      "what": "出現了什麼狀況？",
+      "howStrong": "程度如何？",
+      "none": "目前沒有已知的",
+      "hint": "點選成分來填寫狀況，再點一次可以修改或移除。",
+      "summary": "{{ingredient}}：{{reaction}} · {{severity}}",
+      "save": "儲存",
+      "remove": "移除"
+    },
+    "products": {
+      "name": "產品名稱",
+      "nameHelper": "請依照包裝上的名稱完整輸入，讓你的美容顧問能正確辨識。",
+      "brand": "品牌（選填）",
+      "category": "這是什麼類型的產品？",
+      "add": "加入我的清單",
+      "listTitle": "你的產品（{{count}}）",
+      "remove": "移除 {{name}}",
+      "skip": "先略過"
+    },
+    "offline": {
+      "title": "目前離線",
+      "message": "你已填寫的答案都已儲存，恢復連線後會從中斷處繼續。"
+    },
+    "validation": {
+      "nameLong": "請使用 50 個字以內。",
+      "date": "請輸入正確的日期，例如 1995 / 4 / 23。",
+      "choose": "請選擇一項。",
+      "productNameLong": "請使用 120 個字以內。",
+      "brandLong": "請使用 80 個字以內。",
+      "duplicate": "這個產品已經在你的清單中了。"
+    },
+    "errors": {
+      "under18": "抱歉，AI Beauty Director 僅供年滿 18 歲的使用者使用。如果是輸入錯誤，請修正日期。"
+    }
+  },
+  "verify": {
+    "titleEmail": "請查看你的電子郵件",
+    "titlePhone": "請查看你的簡訊",
+    "titleGeneric": "驗證你的帳號",
+    "message": "我們已寄信到 {{id}}。點信中的連結，或輸入 6 位數驗證碼。",
+    "messageGeneric": "請先確認你的電子郵件或手機號碼，才能開始使用。",
+    "codeLabel": "6 位數驗證碼",
+    "submit": "驗證",
+    "resend": "重新寄送",
+    "resendIn": "{{time}} 後可重新寄送",
+    "sent": "新的信件已寄出。",
+    "differentAccount": "使用其他帳號",
+    "errors": {
+      "link_expired": "連結已過期，請在下方重新寄送。"
+    },
+    "messagePhone": "我們已傳送簡訊到 {{id}}，請輸入 6 位數驗證碼。",
+    "resendSms": "重新傳送驗證碼",
+    "sentSms": "新的驗證碼已在路上。"
+  },
+  "home": {
+    "greeting": {
+      "morning": "早安",
+      "afternoon": "午安",
+      "evening": "晚安"
+    },
+    "openMenu": "開啟選單",
+    "streak": {
+      "days": "連續 {{count}} 天",
+      "start": "今天開始累積吧",
+      "welcomeBack": "歡迎回來，連續紀錄還在。",
+      "restart": "歡迎回來，今天重新開始吧。"
+    },
+    "scan": {
+      "title": "每週檢測",
+      "nextIn": "距離下次檢測",
+      "days": "{{days}} 天 {{hours}} 小時",
+      "hours": "{{hours}} 小時 {{minutes}} 分",
+      "lastScan": "上次檢測：{{date}}",
+      "daysSince": "距上次檢測已過 {{count}} 天（共 7 天）",
+      "arrived": "美容顧問來囉",
+      "arrivedBody": "本週的檢測時間到了。",
+      "first": "準備好了，隨時可以進行第一次檢測。",
+      "start": "開始每週檢測"
+    },
+    "am": {
+      "title": "早晨"
+    },
+    "pm": {
+      "title": "晚間"
+    },
+    "routine": {
+      "steps": "{{count}} 個步驟",
+      "progress": "已完成 {{done}}／{{total}}",
+      "done": "今天已完成",
+      "now": "現在"
+    },
+    "chat": {
+      "title": "問問你的美容顧問",
+      "subtitle": "保養流程、產品或肌膚狀況都可以問"
+    },
+    "cameraTest": {
+      "title": "相機測試",
+      "subtitle": "僅限開發版"
+    },
+    "offline": "目前離線，顯示的是上次儲存的內容。"
+  },
+  "rebuilding": {
+    "title": "重新打造中",
+    "message": "我們正在讓這個畫面煥然一新，請稍後再來看看。"
+  },
+  "gallery": {
+    "language": "語言",
+    "sample": "你的肌膚正在努力，你也是。"
+  },
+  "auth": {
+    "tagline": "溫柔陪伴你的專屬保養夥伴",
+    "loginTitle": "歡迎回來",
+    "signUpTitle": "建立帳號",
+    "signUpSubtitle": "填寫幾項資料就完成了。",
+    "methodEmail": "電子郵件",
+    "methodPhone": "手機",
+    "email": "電子郵件",
+    "phone": "手機號碼",
+    "phoneHelperTW": "手機號碼，例如 0912 345 678",
+    "phoneHelper": "手機號碼，不含國碼",
+    "password": "密碼",
+    "confirmPassword": "確認密碼",
+    "passwordHelper": "至少 8 個字元，需包含英文字母（a–z）與數字",
+    "signIn": "登入",
+    "createAccount": "建立帳號",
+    "forgot": "忘記密碼？",
+    "or": "或",
+    "line": "使用 LINE 繼續",
+    "noAccount": "第一次使用？",
+    "toSignUp": "建立帳號",
+    "haveAccount": "已經有帳號了？",
+    "toLogin": "登入",
+    "country": "國家或地區",
+    "countryTitle": "國家或地區",
+    "countrySearch": "搜尋名稱或國碼",
+    "countryNone": "找不到符合的國家或地區",
+    "emailSignUpSoon": "電子郵件註冊功能建置中，目前請使用手機號碼或 LINE 註冊。",
+    "validation": {
+      "required": "請填寫此欄位。",
+      "email": "電子郵件格式不正確。",
+      "phone": "手機號碼格式不正確。",
+      "passwordShort": "請至少輸入 8 個字元。",
+      "passwordLong": "請勿超過 72 個字元。",
+      "mismatch": "兩次輸入的密碼不一致。",
+      "otp": "請輸入 6 位數驗證碼。",
+      "passwordLetter": "請至少包含一個英文字母（a–z）。",
+      "passwordDigit": "請至少包含一個數字（0–9）。"
+    },
+    "errors": {
+      "invalidCredentials": "登入資訊錯誤。",
+      "alreadyExists": "這個帳號已經存在，請改用登入。",
+      "weakPassword": "密碼強度不足。請使用至少 8 個字元，並包含英文字母（a–z）與數字。",
+      "samePassword": "請設定一組不同於先前的密碼。",
+      "otpExpired": "驗證碼錯誤或已過期。",
+      "rateLimited": "嘗試次數過多，請稍候再試。",
+      "sendFailed": "驗證碼無法送出，請再試一次。",
+      "network": "目前似乎沒有網路連線，請檢查後再試一次。",
+      "line": "LINE 登入未完成，請再試一次。",
+      "generic": "發生了一點問題，請再試一次。",
+      "banned": "此帳號目前無法登入，請與我們聯絡。",
+      "unavailable": "此登入方式目前無法使用。",
+      "sessionExpired": "已逾時，請重新開始。",
+      "server": "伺服器暫時忙碌，請稍後再試。"
+    }
+  },
+  "reset": {
+    "title": "重設密碼",
+    "message": "我們會將 6 位數驗證碼寄到你的電子郵件或手機。",
+    "send": "傳送驗證碼",
+    "sent": "如果 {{id}} 有註冊帳號，驗證碼已在路上。",
+    "codeLabel": "6 位數驗證碼",
+    "verify": "繼續",
+    "resend": "重新傳送驗證碼",
+    "resendIn": "{{time}} 後可重新傳送",
+    "changeId": "改用其他電子郵件或手機",
+    "back": "返回登入",
+    "newTitle": "設定新密碼",
+    "newMessage": "快完成了，請設定新密碼後繼續。",
+    "save": "儲存密碼",
+    "cancel": "取消並登出"
+  },
+  "settings": {
+    "title": "設定",
+    "appearance": "外觀",
+    "appearanceOptions": {
+      "system": "跟隨裝置",
+      "light": "淺色",
+      "dark": "深色"
+    },
+    "language": "語言",
+    "account": "帳號",
+    "delete": "刪除帳號",
+    "deleteTitle": "確定要刪除帳號嗎？",
+    "deleteMessage": "這會永久刪除你的個人資料、產品、保養流程、檢測結果、對話與任何保存的照片，且無法復原。如果想先保留一份，請使用「匯出我的資料」。",
+    "deleteConfirm": "永久刪除",
+    "cancel": "保留我的帳號",
+    "persona": "美容總監風格",
+    "personaHelper": "只改變語氣；建議內容與安全規則完全相同。",
+    "reminders": "提醒",
+    "remindersHelper": "在這支手機上的溫和提醒。開啟你需要的項目後儲存。",
+    "amReminder": "早上保養",
+    "pmReminder": "晚上保養",
+    "scanReminder": "每週檢測到期時",
+    "time": "時間（HH:mm）",
+    "save": "儲存提醒設定",
+    "data": "你的資料",
+    "export": "匯出我的資料",
+    "validation": {
+      "time": "請使用 24 小時制，例如 08:00 或 21:30。"
+    },
+    "remindersBlocked": "這個 App 的通知目前是關閉的，你可以在手機設定中開啟。",
+    "openSettings": "開啟手機設定",
+    "exportHelper": "一個 JSON 檔，包含我們保存的所有你的資料：個人資料、設定、同意紀錄、產品、保養流程、檢測結果與對話。照片不會保存，所以不包含在內。",
+    "exportErrors": {
+      "offline": "你似乎離線了，請檢查網路後再試一次。",
+      "rateLimited": "這個小時內已經匯出幾次了，請稍後再試。",
+      "failed": "這次匯出沒有成功，請再試一次。"
+    }
+  },
+  "codes": {
+    "country": {
+      "AD": "安道爾",
+      "AE": "阿拉伯聯合大公國",
+      "AF": "阿富汗",
+      "AG": "安地卡及巴布達",
+      "AI": "安奎拉",
+      "AL": "阿爾巴尼亞",
+      "AM": "亞美尼亞",
+      "AO": "安哥拉",
+      "AR": "阿根廷",
+      "AS": "美屬薩摩亞",
+      "AT": "奧地利",
+      "AU": "澳洲",
+      "AW": "荷屬阿魯巴",
+      "AX": "奧蘭群島",
+      "AZ": "亞塞拜然",
+      "BA": "波士尼亞與赫塞哥維納",
+      "BB": "巴貝多",
+      "BD": "孟加拉",
+      "BE": "比利時",
+      "BF": "布吉納法索",
+      "BG": "保加利亞",
+      "BH": "巴林",
+      "BI": "蒲隆地",
+      "BJ": "貝南",
+      "BL": "聖巴瑟米",
+      "BM": "百慕達",
+      "BN": "汶萊",
+      "BO": "玻利維亞",
+      "BQ": "荷蘭加勒比區",
+      "BR": "巴西",
+      "BS": "巴哈馬",
+      "BT": "不丹",
+      "BW": "波札那",
+      "BY": "白俄羅斯",
+      "BZ": "貝里斯",
+      "CA": "加拿大",
+      "CC": "科克斯（基靈）群島",
+      "CD": "剛果（金夏沙）",
+      "CF": "中非共和國",
+      "CG": "剛果（布拉薩）",
+      "CH": "瑞士",
+      "CI": "象牙海岸",
+      "CK": "庫克群島",
+      "CL": "智利",
+      "CM": "喀麥隆",
+      "CN": "中國",
+      "CO": "哥倫比亞",
+      "CR": "哥斯大黎加",
+      "CU": "古巴",
+      "CV": "維德角",
+      "CW": "庫拉索",
+      "CX": "聖誕島",
+      "CY": "賽普勒斯",
+      "CZ": "捷克",
+      "DE": "德國",
+      "DJ": "吉布地",
+      "DK": "丹麥",
+      "DM": "多米尼克",
+      "DO": "多明尼加共和國",
+      "DZ": "阿爾及利亞",
+      "EC": "厄瓜多",
+      "EE": "愛沙尼亞",
+      "EG": "埃及",
+      "EH": "西撒哈拉",
+      "ER": "厄利垂亞",
+      "ES": "西班牙",
+      "ET": "衣索比亞",
+      "FI": "芬蘭",
+      "FJ": "斐濟",
+      "FK": "福克蘭群島",
+      "FM": "密克羅尼西亞",
+      "FO": "法羅群島",
+      "FR": "法國",
+      "GA": "加彭",
+      "GB": "英國",
+      "GD": "格瑞那達",
+      "GE": "喬治亞",
+      "GF": "法屬圭亞那",
+      "GG": "根息",
+      "GH": "迦納",
+      "GI": "直布羅陀",
+      "GL": "格陵蘭",
+      "GM": "甘比亞",
+      "GN": "幾內亞",
+      "GP": "瓜地洛普",
+      "GQ": "赤道幾內亞",
+      "GR": "希臘",
+      "GT": "瓜地馬拉",
+      "GU": "關島",
+      "GW": "幾內亞比索",
+      "GY": "蓋亞那",
+      "HK": "香港",
+      "HN": "宏都拉斯",
+      "HR": "克羅埃西亞",
+      "HT": "海地",
+      "HU": "匈牙利",
+      "ID": "印尼",
+      "IE": "愛爾蘭",
+      "IL": "以色列",
+      "IM": "曼島",
+      "IN": "印度",
+      "IO": "英屬印度洋領地",
+      "IQ": "伊拉克",
+      "IR": "伊朗",
+      "IS": "冰島",
+      "IT": "義大利",
+      "JE": "澤西島",
+      "JM": "牙買加",
+      "JO": "約旦",
+      "JP": "日本",
+      "KE": "肯亞",
+      "KG": "吉爾吉斯",
+      "KH": "柬埔寨",
+      "KI": "吉里巴斯",
+      "KM": "葛摩",
+      "KN": "聖克里斯多福及尼維斯",
+      "KP": "北韓",
+      "KR": "南韓",
+      "KW": "科威特",
+      "KY": "開曼群島",
+      "KZ": "哈薩克",
+      "LA": "寮國",
+      "LB": "黎巴嫩",
+      "LC": "聖露西亞",
+      "LI": "列支敦斯登",
+      "LK": "斯里蘭卡",
+      "LR": "賴比瑞亞",
+      "LS": "賴索托",
+      "LT": "立陶宛",
+      "LU": "盧森堡",
+      "LV": "拉脫維亞",
+      "LY": "利比亞",
+      "MA": "摩洛哥",
+      "MC": "摩納哥",
+      "MD": "摩爾多瓦",
+      "ME": "蒙特內哥羅",
+      "MF": "法屬聖馬丁",
+      "MG": "馬達加斯加",
+      "MH": "馬紹爾群島",
+      "MK": "北馬其頓",
+      "ML": "馬利",
+      "MM": "緬甸",
+      "MN": "蒙古",
+      "MO": "澳門",
+      "MP": "北馬利安納群島",
+      "MQ": "馬丁尼克",
+      "MR": "茅利塔尼亞",
+      "MS": "蒙哲臘",
+      "MT": "馬爾他",
+      "MU": "模里西斯",
+      "MV": "馬爾地夫",
+      "MW": "馬拉威",
+      "MX": "墨西哥",
+      "MY": "馬來西亞",
+      "MZ": "莫三比克",
+      "NA": "納米比亞",
+      "NC": "新喀里多尼亞",
+      "NE": "尼日",
+      "NF": "諾福克島",
+      "NG": "奈及利亞",
+      "NI": "尼加拉瓜",
+      "NL": "荷蘭",
+      "NO": "挪威",
+      "NP": "尼泊爾",
+      "NR": "諾魯",
+      "NU": "紐埃島",
+      "NZ": "紐西蘭",
+      "OM": "阿曼",
+      "PA": "巴拿馬",
+      "PE": "秘魯",
+      "PF": "法屬玻里尼西亞",
+      "PG": "巴布亞紐幾內亞",
+      "PH": "菲律賓",
+      "PK": "巴基斯坦",
+      "PL": "波蘭",
+      "PM": "聖皮埃與密克隆群島",
+      "PR": "波多黎各",
+      "PS": "巴勒斯坦自治區",
+      "PT": "葡萄牙",
+      "PW": "帛琉",
+      "PY": "巴拉圭",
+      "QA": "卡達",
+      "RE": "留尼旺",
+      "RO": "羅馬尼亞",
+      "RS": "塞爾維亞",
+      "RU": "俄羅斯",
+      "RW": "盧安達",
+      "SA": "沙烏地阿拉伯",
+      "SB": "索羅門群島",
+      "SC": "塞席爾",
+      "SD": "蘇丹",
+      "SE": "瑞典",
+      "SG": "新加坡",
+      "SH": "聖赫勒拿島",
+      "SI": "斯洛維尼亞",
+      "SJ": "挪威屬斯瓦巴及尖棉",
+      "SK": "斯洛伐克",
+      "SL": "獅子山",
+      "SM": "聖馬利諾",
+      "SN": "塞內加爾",
+      "SO": "索馬利亞",
+      "SR": "蘇利南",
+      "SS": "南蘇丹",
+      "ST": "聖多美普林西比",
+      "SV": "薩爾瓦多",
+      "SX": "荷屬聖馬丁",
+      "SY": "敘利亞",
+      "SZ": "史瓦帝尼",
+      "TC": "土克斯及開科斯群島",
+      "TD": "查德",
+      "TG": "多哥",
+      "TH": "泰國",
+      "TJ": "塔吉克",
+      "TK": "托克勞群島",
+      "TL": "東帝汶",
+      "TM": "土庫曼",
+      "TN": "突尼西亞",
+      "TO": "東加",
+      "TR": "土耳其",
+      "TT": "千里達及托巴哥",
+      "TV": "吐瓦魯",
+      "TW": "台灣",
+      "TZ": "坦尚尼亞",
+      "UA": "烏克蘭",
+      "UG": "烏干達",
+      "US": "美國",
+      "UY": "烏拉圭",
+      "UZ": "烏茲別克",
+      "VA": "梵蒂岡",
+      "VC": "聖文森及格瑞那丁",
+      "VE": "委內瑞拉",
+      "VG": "英屬維京群島",
+      "VI": "美屬維京群島",
+      "VN": "越南",
+      "VU": "萬那杜",
+      "WF": "瓦利斯群島和富圖那群島",
+      "WS": "薩摩亞",
+      "XK": "科索沃",
+      "YE": "葉門",
+      "YT": "馬約特島",
+      "ZA": "南非",
+      "ZM": "尚比亞",
+      "ZW": "辛巴威"
+    },
+    "gender": {
+      "female": "女性",
+      "male": "男性",
+      "non_binary": "非二元",
+      "prefer_not_to_say": "不透露"
+    },
+    "goal": {
+      "hydration": "保濕",
+      "brightening": "提亮",
+      "firmness": "緊緻",
+      "calm_redness": "舒緩泛紅外觀",
+      "pore_visibility": "改善毛孔外觀",
+      "anti_aging": "細紋",
+      "oil_control": "控油",
+      "texture": "平滑膚質"
+    },
+    "level": {
+      "beginner": "剛開始保養",
+      "intermediate": "有固定的保養習慣",
+      "advanced": "保養愛好者"
+    },
+    "budget": {
+      "low": "NT$500 以下",
+      "mid": "NT$500–1,500",
+      "high": "NT$1,500 以上"
+    },
+    "texture": {
+      "gel": "凝膠",
+      "lotion": "乳液",
+      "cream": "乳霜",
+      "oil": "油",
+      "balm": "膏狀"
+    },
+    "ingredient": {
+      "fragrance": "香料",
+      "alcohol": "酒精",
+      "essential_oils": "精油",
+      "retinoids": "A 醇類（視黃醇）",
+      "exfoliating_acids": "去角質酸（果酸／水楊酸）",
+      "vitamin_c": "維他命 C",
+      "benzoyl_peroxide": "過氧化苯甲醯",
+      "niacinamide": "菸鹼醯胺"
+    },
+    "reaction": {
+      "stinging": "刺痛",
+      "redness": "泛紅",
+      "breakouts": "冒痘",
+      "dryness": "乾燥",
+      "itching": "發癢",
+      "other": "其他"
+    },
+    "severity": {
+      "mild": "輕微",
+      "moderate": "中等",
+      "severe": "強烈"
+    },
+    "category": {
+      "cleanser": "洗面乳",
+      "toner": "化妝水",
+      "serum": "精華液",
+      "moisturizer": "保濕乳霜",
+      "sunscreen": "防曬",
+      "treatment": "調理產品",
+      "mask": "面膜",
+      "other": "其他"
+    },
+    "stepType": {
+      "cleanse": "潔顏",
+      "tone": "化妝水",
+      "serum": "精華液",
+      "treat": "調理",
+      "moisturize": "保濕",
+      "protect": "防曬",
+      "mask": "面膜",
+      "other": "其他步驟"
+    },
+    "actives": {
+      "retinoid": "A醇類",
+      "aha": "果酸（AHA）",
+      "bha": "水楊酸（BHA）",
+      "pha": "PHA",
+      "vitamin_c": "維他命C",
+      "niacinamide": "菸鹼醯胺",
+      "benzoyl_peroxide": "過氧化苯甲醯",
+      "azelaic_acid": "杜鵑花酸",
+      "hyaluronic_acid": "玻尿酸",
+      "ceramides": "神經醯胺",
+      "peptides": "胜肽",
+      "sulfur": "硫磺",
+      "fragrance": "香精",
+      "alcohol_denat": "酒精",
+      "essential_oils": "精油",
+      "unknown": "不確定"
+    },
+    "useTime": {
+      "am": "早上",
+      "pm": "晚上",
+      "both": "早晚"
+    },
+    "productStatus": {
+      "active": "使用中",
+      "paused": "暫停",
+      "finished": "用完了"
+    },
+    "persona": {
+      "gentle": {
+        "name": "溫柔",
+        "description": "溫暖、鼓勵，像懂保養的朋友。"
+      },
+      "professional": {
+        "name": "專業",
+        "description": "冷靜精準，用一句話說明原因。"
+      },
+      "strict_coach": {
+        "name": "嚴格教練",
+        "description": "直接強調持續，但從不責備。"
+      }
+    }
+  },
+  "legal": {
+    "terms": {
+      "title": "服務條款"
+    },
+    "privacy": {
+      "title": "隱私權政策"
+    },
+    "notice": "繼續即表示你同意我們的服務條款與隱私權政策。",
+    "placeholder": "完整內容將於正式上線前在此公布。",
+    "version": "版本 {{version}}"
+  },
+  "drawer": {
+    "profile": "個人資料",
+    "settings": "設定",
+    "gallery": "元件庫（開發）",
+    "close": "關閉選單",
+    "products": "我的產品"
+  },
+  "routine": {
+    "title": {
+      "am": "早晨保養",
+      "pm": "晚間保養"
+    },
+    "steps": "{{count}} 個步驟",
+    "progress": "已完成 {{done}}／{{total}} 個步驟",
+    "skip": "略過",
+    "skipped": "已略過",
+    "finish": "完成保養",
+    "finishHint": "至少勾選一個步驟才能完成。",
+    "doneTitle": "今天已完成",
+    "doneMessage": {
+      "am": "晚上見。",
+      "pm": "好好休息，明天見。"
+    },
+    "complete": "保養完成",
+    "savedOffline": "已存在這支手機上，連上網路後會自動同步。",
+    "notFound": "找不到這個保養流程。",
+    "emptyTitle": "還沒有步驟",
+    "emptyMessage": "保養流程準備好後會顯示在這裡。",
+    "submitError": "保養紀錄沒有存到，請再試一次。"
+  },
+  "scan": {
+    "quality": {
+      "no_face": "請讓臉部出現在橢圓框內",
+      "multiple_faces": "畫面中請只有你一個人",
+      "face_too_small": "請再靠近一點",
+      "face_too_large": "請稍微退後一點",
+      "face_off_center": "請把臉放在橢圓框中央",
+      "face_tilted": "請正面看向鏡頭",
+      "too_dark": "太暗了：試著面向窗戶",
+      "overexposed": "太亮了：請避開直射光",
+      "uneven_light": "光線只照到一側：請正面朝向光源",
+      "low_contrast": "光線太平：試試更明亮的房間",
+      "blurry": "畫面模糊：請擦拭鏡頭並保持不動"
+    },
+    "capture": {
+      "starting": "相機啟動中…",
+      "hold": "請保持不動…",
+      "ready": "很好，準備好就可以拍照。",
+      "shutter": "拍照",
+      "tips": "面向窗戶、不要用濾鏡、把頭髮撥開、表情放鬆。",
+      "faceCheckUnavailable": "此裝置無法使用臉部檢查",
+      "permissionTitle": "需要相機權限",
+      "permissionBody": "每週檢測會拍一張臉部照片。照片會保持私密，只用於你的肌膚分析。",
+      "allowCamera": "允許使用相機",
+      "openSettings": "開啟設定",
+      "noCameraTitle": "找不到前鏡頭",
+      "noCameraBody": "這台裝置沒有可用的前鏡頭。",
+      "cameraErrorTitle": "相機無法啟動"
+    },
+    "errors": {
+      "capture_failed": "照片沒有拍成功，再試一次吧。",
+      "upload_failed": "照片無法上傳，請再試一次。",
+      "offline": "目前離線中，請連線後再試。",
+      "generic": "我們這邊出了點問題。本週的檢測次數沒有被用掉。",
+      "disabled": "此伺服器已關閉相機測試。",
+      "unauthorized": "登入已過期，請重新登入。",
+      "consent_required": "照片分析需要你的同意，你可以在「隱私與同意」中開啟。",
+      "not_due": "還沒到下次檢測的時間。",
+      "in_progress": "已有一次檢測正在進行，請稍等。",
+      "unavailable": "肌膚分析目前無法使用。我們已收到通知，請稍後再試。",
+      "image_too_large": "照片太大了，請重新拍攝。",
+      "rate_limited": "同時進行的檢測太多，請等一分鐘再試。",
+      "timeout": "分析花的時間太長。沒有儲存任何資料，再試一次吧。",
+      "provider_failed": "分析沒有完成。沒有儲存任何資料，再試一次吧。",
+      "invalid_result": "無法讀取分析結果。沒有儲存任何資料，請再試一次。"
+    },
+    "disclaimer": "以上是一般保養建議，並非醫療意見。",
+    "retry": "再試一次檢測",
+    "notDue": {
+      "body": "每週檢測一週只拍一張照片，讓肌膚在兩次檢測之間有時間變化。"
+    },
+    "arrival": {
+      "firstTitle": "你的第一次檢測",
+      "body": "拍一張清楚的正面照，你的美容總監就會寫出本週回顧，大約需要一分鐘。",
+      "start": "開始檢測"
+    },
+    "progress": {
+      "uploading": "上傳照片中…",
+      "analyzing": "分析照片中…",
+      "reviewing": "美容總監正在撰寫回顧…",
+      "step": "第 {{current}} 步，共 {{total}} 步",
+      "hint": "請保持 App 開啟，通常只需要幾秒鐘。",
+      "slow": "最多可能需要一分鐘，謝謝你的耐心。"
+    },
+    "consentOff": {
+      "title": "照片分析已關閉",
+      "body": "每週檢測需要你同意分析照片。你可以在「隱私與同意」中重新開啟。"
+    }
+  },
+  "cameraTest": {
+    "devBadge": "DEV",
+    "devOnly": "相機測試只在開發版中提供。",
+    "uploading": "上傳中…",
+    "analyzing": "分析中…",
+    "nothingSaved": "這裡的內容不會存入你的檢測紀錄，照片在分析後即刪除。",
+    "verdictOk": "有效結果：核心指標齊全",
+    "verdictInvalid": "無效結果：{{reason}}",
+    "model": "模型 {{model}} · {{ms}} 毫秒",
+    "metricsTitle": "標準化指標（v1）",
+    "liveScoresTitle": "拍照時的即時 QA 數值",
+    "rawTitle": "供應商原始回應",
+    "retake": "再拍一張"
+  },
+  "chat": {
+    "title": "美容總監",
+    "welcome": {
+      "title": "嗨，我是你的美容總監",
+      "message": "我記得你的保養流程、產品和最近一次的檢測。想問什麼都可以，或從這幾個開始。",
+      "q1": "今晚要怎麼保養？",
+      "q2": "我的流程會不會太多？",
+      "q3": "上次檢測怎麼樣？"
+    },
+    "composer": {
+      "label": "訊息",
+      "placeholder": "問問保養流程或產品",
+      "send": "送出",
+      "counter": "{{count}} / {{max}}"
+    },
+    "typing": "美容總監正在輸入",
+    "retry": "重試",
+    "suggestedBy": "美容總監的建議",
+    "blocks": {
+      "accept": "採用",
+      "decline": "先不要",
+      "confirm": "確認",
+      "applied": "已套用",
+      "declined": "已略過",
+      "open": "開啟產品",
+      "addProduct": "加入我的產品",
+      "proposalTitle": "{{period}}保養流程調整",
+      "changeTitle": "要更新你的資料嗎？",
+      "added": "+ {{step}}",
+      "removed": "− {{step}}",
+      "moved": "{{step}} → 第 {{position}} 步",
+      "fields": {
+        "goals": "目標",
+        "routine_level": "保養經驗",
+        "budget": "預算",
+        "textures": "質地偏好",
+        "status": "狀態",
+        "use_time": "使用時段",
+        "key_actives": "主要成分",
+        "opened_at": "開封日期"
+      },
+      "change": {
+        "field": "{{field}}：{{value}}",
+        "product": "{{product}}・{{field}}：{{value}}",
+        "reaction": "記錄反應：{{target}}，{{reaction}}（{{severity}}）",
+        "resolved": "將這個反應標記為已改善",
+        "separator": "、"
+      },
+      "scanTitle": "{{date}} 的檢測",
+      "before": "目前",
+      "after": "建議",
+      "metric": "{{label}} {{value}}, {{trend}}",
+      "trend": {
+        "up": "進步中",
+        "down": "略微下降",
+        "flat": "差不多",
+        "none": "第一次測量"
+      }
+    },
+    "errors": {
+      "offline": "目前離線。訊息還留在輸入框，恢復連線後再送一次。",
+      "generic": "發生了一點問題，請再試一次。",
+      "rate_limited": "一小時內的訊息有點多了，稍後再繼續吧。",
+      "thread_busy": "美容總監還在回覆中，請稍等。",
+      "message_too_long": "一則訊息請控制在 1000 字以內。",
+      "already_acted": "這一項已經套用過了。",
+      "unavailable": "美容總監目前無法回覆，請稍後再試。",
+      "timeout": "等太久了，請再試一次。"
+    }
+  },
+  "products": {
+    "title": "我的產品",
+    "add": "新增產品",
+    "addTitle": "新增產品",
+    "editTitle": "編輯產品",
+    "edit": "編輯 {{name}}",
+    "save": "儲存",
+    "group": {
+      "active": "使用中",
+      "paused": "暫停",
+      "finished": "用完了"
+    },
+    "useTime": "什麼時候使用？",
+    "actives": "主要活性成分",
+    "activesHelper": "依照包裝標示選擇。不確定就選「不確定」，你的美容總監在搭配新成分前會先問你。",
+    "ingredients": "成分（選填）",
+    "ingredientsHelper": "貼上包裝上的成分表。",
+    "openedAt": "開封日期（選填）",
+    "openedAtHelper": "年-月-日，例如 2026-03-15。",
+    "status": "狀態",
+    "empty": {
+      "title": "還沒有產品",
+      "message": "加入你現在使用的產品，美容總監就能以它們為基礎規劃。"
+    },
+    "validation": {
+      "ingredientsLong": "成分表太長了（最多 2000 字）。",
+      "date": "請輸入真實的過去日期（年-月-日）。"
+    }
+  },
+  "profile": {
+    "title": "個人資料",
+    "basics": "基本資料",
+    "basicsSubtitle": "姓名、出生日期與性別",
+    "skin": "肌膚檔案",
+    "skinSubtitle": "目標、經驗、預算、過敏反應",
+    "products": "我的產品",
+    "productsSubtitle": "你現在使用的產品",
+    "password": "變更密碼",
+    "passwordSubtitle": "用於 Email 或手機登入",
+    "methods": "登入方式",
+    "methodsSubtitle": "手機、LINE、Email",
+    "passwordTitle": "變更密碼",
+    "passwordSaved": "密碼已更新。",
+    "methodsTitle": "登入方式",
+    "linked": "已連結",
+    "notLinked": "尚未連結",
+    "add": "新增",
+    "emailSoon": "Email 登入會在郵件寄送設定完成後開放。",
+    "phoneTitle": "新增手機登入",
+    "phoneMessage": "我們會傳送 6 位數驗證碼確認號碼，之後就能用這支手機和目前的密碼登入。",
+    "sendCode": "傳送驗證碼",
+    "codeMessage": "輸入剛剛收到的驗證碼。"
+  },
+  "skinProfile": {
+    "title": "肌膚檔案",
+    "subtitle": "美容總監據此為你規劃。點選區塊即可修改。",
+    "edit": "編輯{{section}}",
+    "none": "尚未設定"
+  },
+  "notifications": {
+    "channel": "提醒",
+    "am": {
+      "title": "早安",
+      "body": "早上的保養準備好了，等你有空時開始。"
+    },
+    "pm": {
+      "title": "晚上保養",
+      "body": "晚上的保養準備好了，等你有空時開始。"
+    },
+    "scan": {
+      "title": "每週檢測",
+      "body": "下一次每週檢測已經開放，想做的時候隨時都可以。"
+    }
+  },
+  "privacy": {
+    "title": "隱私與同意",
+    "intro": "你可以隨時更改這些選項，每次選擇都會記錄日期。",
+    "accepted": "已同意 · 版本 {{version}} · {{date}}",
+    "notRecorded": "尚未記錄。",
+    "termsWithdraw": "若不想再依這些條款使用 App，可以在設定中刪除帳號。",
+    "photoOff": "關閉期間每週檢測會暫停，過去的結果會保留。",
+    "changed": "上次更改：{{date}}"
+  }
+}

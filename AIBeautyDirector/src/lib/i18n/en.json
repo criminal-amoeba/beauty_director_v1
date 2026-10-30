@@ -1,0 +1,957 @@
+{
+  "common": {
+    "appName": "AI Beauty Director",
+    "backHome": "Back to Home",
+    "signOut": "Sign out",
+    "retry": "Try again",
+    "comingSoon": "Coming soon",
+    "comingSoonMessage": "This sign-in method isn't available yet.",
+    "close": "Close"
+  },
+  "splash": {
+    "loading": "Getting things ready"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "It's not you. Please try again in a moment."
+  },
+  "onboarding": {
+    "stepOf": "Step {{current}} of {{total}}",
+    "back": "Previous step",
+    "continue": "Continue",
+    "finish": "Finish",
+    "steps": {
+      "consent": {
+        "title": "Before we begin",
+        "subtitle": "Choose how your data may be used. You can change this later in Settings."
+      },
+      "basics": {
+        "title": "A little about you",
+        "subtitle": "So your Beauty Director knows who they're talking to."
+      },
+      "goals": {
+        "title": "Your skin goals",
+        "subtitle": "Pick everything you'd like to work on."
+      },
+      "level": {
+        "title": "Your routine today",
+        "subtitle": "How familiar are you with skincare routines?"
+      },
+      "budget": {
+        "title": "Budget & textures",
+        "subtitle": "We'll keep suggestions within what feels right for you."
+      },
+      "reactions": {
+        "title": "Anything that bothered your skin?",
+        "subtitle": "Tap ingredients that caused a reaction before, so we steer clear of them."
+      },
+      "products": {
+        "title": "Products you already use",
+        "subtitle": "Add what you already use. Often you don't need to buy anything new."
+      }
+    },
+    "consent": {
+      "required": "Required",
+      "optional": "Optional",
+      "terms": {
+        "title": "I agree to the Terms of Service and Privacy Policy"
+      },
+      "photo_analysis": {
+        "title": "Analyze my weekly skin photos",
+        "body": "Kept private. Not a medical assessment."
+      },
+      "model_training": {
+        "title": "Help improve the analysis",
+        "body": "Anonymized results help improve our models."
+      },
+      "marketing": {
+        "title": "Send me tips and offers",
+        "body": "Occasional news and offers. No spam."
+      }
+    },
+    "basics": {
+      "name": "What should we call you?",
+      "birthDate": "Date of birth",
+      "birthDateHelper": "You need to be 18 or older to use AI Beauty Director.",
+      "year": "Year",
+      "yearPlaceholder": "YYYY",
+      "month": "Month",
+      "monthPlaceholder": "MM",
+      "day": "Day",
+      "dayPlaceholder": "DD",
+      "gender": "Gender"
+    },
+    "level": {
+      "hint": {
+        "beginner": "We'll start simple with a few gentle steps.",
+        "intermediate": "We'll build on what you already do.",
+        "advanced": "We'll fine-tune a fuller routine with you."
+      }
+    },
+    "budget": {
+      "budget": "Budget per product",
+      "textures": "Textures you enjoy",
+      "texturesHelper": "Optional. Skip it if you have no preference."
+    },
+    "reactions": {
+      "what": "What happened?",
+      "howStrong": "How strong was it?",
+      "none": "None that I know of",
+      "hint": "Tap an ingredient to add what happened. Tap it again to change or remove it.",
+      "summary": "{{ingredient}}: {{reaction}} · {{severity}}",
+      "save": "Save",
+      "remove": "Remove"
+    },
+    "products": {
+      "name": "Product name",
+      "nameHelper": "Type the name exactly as it appears on the package, so your Beauty Director recognizes it.",
+      "brand": "Brand (optional)",
+      "category": "What kind of product is it?",
+      "add": "Add to my list",
+      "listTitle": "Your products ({{count}})",
+      "remove": "Remove {{name}}",
+      "skip": "Skip for now"
+    },
+    "offline": {
+      "title": "You're offline",
+      "message": "Your answers so far are saved. Reconnect and we'll pick up where you left off."
+    },
+    "validation": {
+      "nameLong": "Use 50 characters or fewer.",
+      "date": "Enter a real date, e.g. 1995 / 4 / 23.",
+      "choose": "Please choose one.",
+      "productNameLong": "Use 120 characters or fewer.",
+      "brandLong": "Use 80 characters or fewer.",
+      "duplicate": "This product is already on your list."
+    },
+    "errors": {
+      "under18": "Sorry, AI Beauty Director is only for people 18 and older. If you made a typo, please fix the date."
+    }
+  },
+  "verify": {
+    "titleEmail": "Check your email",
+    "titlePhone": "Check your messages",
+    "titleGeneric": "Verify your account",
+    "message": "We sent an email to {{id}}. Tap the link in it, or enter the 6-digit code.",
+    "messageGeneric": "Confirm your email or phone number to open the app.",
+    "codeLabel": "6-digit code",
+    "submit": "Verify",
+    "resend": "Resend email",
+    "resendIn": "Resend in {{time}}",
+    "sent": "A new email is on its way.",
+    "differentAccount": "Use a different account",
+    "errors": {
+      "link_expired": "That link has expired. Request a new email below."
+    },
+    "messagePhone": "We sent a text to {{id}}. Enter the 6-digit code.",
+    "resendSms": "Resend code",
+    "sentSms": "A new code is on its way."
+  },
+  "home": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "openMenu": "Open menu",
+    "streak": {
+      "days": "{{count}}-day streak",
+      "start": "Start your streak today",
+      "welcomeBack": "Welcome back. Your streak is safe.",
+      "restart": "Welcome back. Start fresh today."
+    },
+    "scan": {
+      "title": "Weekly scan",
+      "nextIn": "Next scan in",
+      "days": "{{days}}d {{hours}}h",
+      "hours": "{{hours}}h {{minutes}}m",
+      "lastScan": "Last scan {{date}}",
+      "daysSince": "{{count}} of 7 days since your last scan",
+      "arrived": "The Beauty Director has arrived",
+      "arrivedBody": "It's time for this week's scan.",
+      "first": "Your first scan is ready whenever you are.",
+      "start": "Start weekly scan"
+    },
+    "am": {
+      "title": "Morning"
+    },
+    "pm": {
+      "title": "Evening"
+    },
+    "routine": {
+      "steps": "{{count}} steps",
+      "progress": "{{done}} of {{total}} done",
+      "done": "Done for today",
+      "now": "Up next"
+    },
+    "chat": {
+      "title": "Ask your Beauty Director",
+      "subtitle": "About your routine, products or skin"
+    },
+    "cameraTest": {
+      "title": "Camera test",
+      "subtitle": "Dev builds only"
+    },
+    "offline": "You're offline. This is what was saved last."
+  },
+  "rebuilding": {
+    "title": "Being rebuilt",
+    "message": "We're giving this screen a fresh start. Check back soon."
+  },
+  "gallery": {
+    "language": "Language",
+    "sample": "Your skin is doing its best, and so are you."
+  },
+  "auth": {
+    "tagline": "Your calm, personal skin companion",
+    "loginTitle": "Welcome back",
+    "signUpTitle": "Create your account",
+    "signUpSubtitle": "A few details and you're in.",
+    "methodEmail": "Email",
+    "methodPhone": "Phone",
+    "email": "Email",
+    "phone": "Phone number",
+    "phoneHelperTW": "Mobile number, e.g. 0912 345 678",
+    "phoneHelper": "Mobile number without the country code",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "passwordHelper": "At least 8 characters, with a letter (a–z) and a number",
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "forgot": "Forgot password?",
+    "or": "or",
+    "line": "Continue with LINE",
+    "noAccount": "New here?",
+    "toSignUp": "Create an account",
+    "haveAccount": "Already have an account?",
+    "toLogin": "Sign in",
+    "country": "Country or region",
+    "countryTitle": "Country or region",
+    "countrySearch": "Search by name or code",
+    "countryNone": "No matching country or region",
+    "emailSignUpSoon": "Email sign-up is under construction. Please sign up with your phone number or LINE for now.",
+    "validation": {
+      "required": "Please fill this in.",
+      "email": "That doesn't look like an email address.",
+      "phone": "That doesn't look like a mobile number.",
+      "passwordShort": "Use at least 8 characters.",
+      "passwordLong": "Use 72 characters or fewer.",
+      "mismatch": "Passwords don't match.",
+      "otp": "Enter the 6-digit code.",
+      "passwordLetter": "Add at least one letter (a–z).",
+      "passwordDigit": "Add at least one number (0–9)."
+    },
+    "errors": {
+      "invalidCredentials": "Invalid credentials.",
+      "alreadyExists": "An account already exists. Try signing in instead.",
+      "weakPassword": "This password is too weak. Use at least 8 characters, including a letter (a–z) and a number.",
+      "samePassword": "Choose a password you haven't used here before.",
+      "otpExpired": "That code is wrong or has expired.",
+      "rateLimited": "Too many attempts just now. Please wait a little and try again.",
+      "sendFailed": "We couldn't send the code. Please try again.",
+      "network": "You seem to be offline. Check your connection and try again.",
+      "line": "LINE sign-in didn't finish. Please try again.",
+      "generic": "Something went wrong. Please try again.",
+      "banned": "This account can’t sign in right now. Please contact us.",
+      "unavailable": "This sign-in method isn’t available right now.",
+      "sessionExpired": "This has timed out. Please start again.",
+      "server": "Our servers are having a moment. Please try again shortly."
+    }
+  },
+  "reset": {
+    "title": "Reset your password",
+    "message": "We'll send a 6-digit code to your email or phone.",
+    "send": "Send code",
+    "sent": "If an account exists for {{id}}, a code is on its way.",
+    "codeLabel": "6-digit code",
+    "verify": "Continue",
+    "resend": "Resend code",
+    "resendIn": "Resend in {{time}}",
+    "changeId": "Use a different email or phone",
+    "back": "Back to sign in",
+    "newTitle": "Choose a new password",
+    "newMessage": "You're almost there. Set a new password to continue.",
+    "save": "Save password",
+    "cancel": "Cancel and sign out"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "appearanceOptions": {
+      "system": "Match device",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": "Language",
+    "account": "Account",
+    "delete": "Delete account",
+    "deleteTitle": "Delete your account?",
+    "deleteMessage": "This permanently removes your profile, products, routines, scan results, chats and any stored photos. It can't be undone. If you'd like a copy first, use Export my data.",
+    "deleteConfirm": "Delete permanently",
+    "cancel": "Keep my account",
+    "persona": "Beauty Director style",
+    "personaHelper": "Changes the tone only; the advice and safety rules stay the same.",
+    "reminders": "Reminders",
+    "remindersHelper": "Gentle reminders on this phone. Turn on the ones you want, then save.",
+    "amReminder": "Morning routine",
+    "pmReminder": "Evening routine",
+    "scanReminder": "Weekly scan when it's due",
+    "time": "Time (HH:mm)",
+    "save": "Save reminders",
+    "data": "Your data",
+    "export": "Export my data",
+    "validation": {
+      "time": "Use 24-hour time like 08:00 or 21:30."
+    },
+    "remindersBlocked": "Notifications are off for this app. You can allow them in your phone's settings.",
+    "openSettings": "Open phone settings",
+    "exportHelper": "A JSON file with everything we keep about you: profile, settings, consents, products, routines, scan results and chats. Photos aren't kept, so none are included.",
+    "exportErrors": {
+      "offline": "You seem to be offline. Check your connection and try again.",
+      "rateLimited": "You've exported a few times this hour. Please try again later.",
+      "failed": "The export didn't work this time. Please try again."
+    }
+  },
+  "codes": {
+    "country": {
+      "AD": "Andorra",
+      "AE": "United Arab Emirates",
+      "AF": "Afghanistan",
+      "AG": "Antigua & Barbuda",
+      "AI": "Anguilla",
+      "AL": "Albania",
+      "AM": "Armenia",
+      "AO": "Angola",
+      "AR": "Argentina",
+      "AS": "American Samoa",
+      "AT": "Austria",
+      "AU": "Australia",
+      "AW": "Aruba",
+      "AX": "Åland Islands",
+      "AZ": "Azerbaijan",
+      "BA": "Bosnia & Herzegovina",
+      "BB": "Barbados",
+      "BD": "Bangladesh",
+      "BE": "Belgium",
+      "BF": "Burkina Faso",
+      "BG": "Bulgaria",
+      "BH": "Bahrain",
+      "BI": "Burundi",
+      "BJ": "Benin",
+      "BL": "St. Barthélemy",
+      "BM": "Bermuda",
+      "BN": "Brunei",
+      "BO": "Bolivia",
+      "BQ": "Caribbean Netherlands",
+      "BR": "Brazil",
+      "BS": "Bahamas",
+      "BT": "Bhutan",
+      "BW": "Botswana",
+      "BY": "Belarus",
+      "BZ": "Belize",
+      "CA": "Canada",
+      "CC": "Cocos (Keeling) Islands",
+      "CD": "DR Congo",
+      "CF": "Central African Republic",
+      "CG": "Congo",
+      "CH": "Switzerland",
+      "CI": "Côte d’Ivoire",
+      "CK": "Cook Islands",
+      "CL": "Chile",
+      "CM": "Cameroon",
+      "CN": "China",
+      "CO": "Colombia",
+      "CR": "Costa Rica",
+      "CU": "Cuba",
+      "CV": "Cape Verde",
+      "CW": "Curaçao",
+      "CX": "Christmas Island",
+      "CY": "Cyprus",
+      "CZ": "Czechia",
+      "DE": "Germany",
+      "DJ": "Djibouti",
+      "DK": "Denmark",
+      "DM": "Dominica",
+      "DO": "Dominican Republic",
+      "DZ": "Algeria",
+      "EC": "Ecuador",
+      "EE": "Estonia",
+      "EG": "Egypt",
+      "EH": "Western Sahara",
+      "ER": "Eritrea",
+      "ES": "Spain",
+      "ET": "Ethiopia",
+      "FI": "Finland",
+      "FJ": "Fiji",
+      "FK": "Falkland Islands",
+      "FM": "Micronesia",
+      "FO": "Faroe Islands",
+      "FR": "France",
+      "GA": "Gabon",
+      "GB": "United Kingdom",
+      "GD": "Grenada",
+      "GE": "Georgia",
+      "GF": "French Guiana",
+      "GG": "Guernsey",
+      "GH": "Ghana",
+      "GI": "Gibraltar",
+      "GL": "Greenland",
+      "GM": "Gambia",
+      "GN": "Guinea",
+      "GP": "Guadeloupe",
+      "GQ": "Equatorial Guinea",
+      "GR": "Greece",
+      "GT": "Guatemala",
+      "GU": "Guam",
+      "GW": "Guinea-Bissau",
+      "GY": "Guyana",
+      "HK": "Hong Kong",
+      "HN": "Honduras",
+      "HR": "Croatia",
+      "HT": "Haiti",
+      "HU": "Hungary",
+      "ID": "Indonesia",
+      "IE": "Ireland",
+      "IL": "Israel",
+      "IM": "Isle of Man",
+      "IN": "India",
+      "IO": "British Indian Ocean Territory",
+      "IQ": "Iraq",
+      "IR": "Iran",
+      "IS": "Iceland",
+      "IT": "Italy",
+      "JE": "Jersey",
+      "JM": "Jamaica",
+      "JO": "Jordan",
+      "JP": "Japan",
+      "KE": "Kenya",
+      "KG": "Kyrgyzstan",
+      "KH": "Cambodia",
+      "KI": "Kiribati",
+      "KM": "Comoros",
+      "KN": "St. Kitts & Nevis",
+      "KP": "North Korea",
+      "KR": "South Korea",
+      "KW": "Kuwait",
+      "KY": "Cayman Islands",
+      "KZ": "Kazakhstan",
+      "LA": "Laos",
+      "LB": "Lebanon",
+      "LC": "St. Lucia",
+      "LI": "Liechtenstein",
+      "LK": "Sri Lanka",
+      "LR": "Liberia",
+      "LS": "Lesotho",
+      "LT": "Lithuania",
+      "LU": "Luxembourg",
+      "LV": "Latvia",
+      "LY": "Libya",
+      "MA": "Morocco",
+      "MC": "Monaco",
+      "MD": "Moldova",
+      "ME": "Montenegro",
+      "MF": "St. Martin",
+      "MG": "Madagascar",
+      "MH": "Marshall Islands",
+      "MK": "North Macedonia",
+      "ML": "Mali",
+      "MM": "Myanmar",
+      "MN": "Mongolia",
+      "MO": "Macau",
+      "MP": "Northern Mariana Islands",
+      "MQ": "Martinique",
+      "MR": "Mauritania",
+      "MS": "Montserrat",
+      "MT": "Malta",
+      "MU": "Mauritius",
+      "MV": "Maldives",
+      "MW": "Malawi",
+      "MX": "Mexico",
+      "MY": "Malaysia",
+      "MZ": "Mozambique",
+      "NA": "Namibia",
+      "NC": "New Caledonia",
+      "NE": "Niger",
+      "NF": "Norfolk Island",
+      "NG": "Nigeria",
+      "NI": "Nicaragua",
+      "NL": "Netherlands",
+      "NO": "Norway",
+      "NP": "Nepal",
+      "NR": "Nauru",
+      "NU": "Niue",
+      "NZ": "New Zealand",
+      "OM": "Oman",
+      "PA": "Panama",
+      "PE": "Peru",
+      "PF": "French Polynesia",
+      "PG": "Papua New Guinea",
+      "PH": "Philippines",
+      "PK": "Pakistan",
+      "PL": "Poland",
+      "PM": "St. Pierre & Miquelon",
+      "PR": "Puerto Rico",
+      "PS": "Palestine",
+      "PT": "Portugal",
+      "PW": "Palau",
+      "PY": "Paraguay",
+      "QA": "Qatar",
+      "RE": "Réunion",
+      "RO": "Romania",
+      "RS": "Serbia",
+      "RU": "Russia",
+      "RW": "Rwanda",
+      "SA": "Saudi Arabia",
+      "SB": "Solomon Islands",
+      "SC": "Seychelles",
+      "SD": "Sudan",
+      "SE": "Sweden",
+      "SG": "Singapore",
+      "SH": "St. Helena",
+      "SI": "Slovenia",
+      "SJ": "Svalbard & Jan Mayen",
+      "SK": "Slovakia",
+      "SL": "Sierra Leone",
+      "SM": "San Marino",
+      "SN": "Senegal",
+      "SO": "Somalia",
+      "SR": "Suriname",
+      "SS": "South Sudan",
+      "ST": "São Tomé & Príncipe",
+      "SV": "El Salvador",
+      "SX": "Sint Maarten",
+      "SY": "Syria",
+      "SZ": "Eswatini",
+      "TC": "Turks & Caicos Islands",
+      "TD": "Chad",
+      "TG": "Togo",
+      "TH": "Thailand",
+      "TJ": "Tajikistan",
+      "TK": "Tokelau",
+      "TL": "Timor-Leste",
+      "TM": "Turkmenistan",
+      "TN": "Tunisia",
+      "TO": "Tonga",
+      "TR": "Türkiye",
+      "TT": "Trinidad & Tobago",
+      "TV": "Tuvalu",
+      "TW": "Taiwan",
+      "TZ": "Tanzania",
+      "UA": "Ukraine",
+      "UG": "Uganda",
+      "US": "United States",
+      "UY": "Uruguay",
+      "UZ": "Uzbekistan",
+      "VA": "Vatican City",
+      "VC": "St. Vincent & Grenadines",
+      "VE": "Venezuela",
+      "VG": "British Virgin Islands",
+      "VI": "U.S. Virgin Islands",
+      "VN": "Vietnam",
+      "VU": "Vanuatu",
+      "WF": "Wallis & Futuna",
+      "WS": "Samoa",
+      "XK": "Kosovo",
+      "YE": "Yemen",
+      "YT": "Mayotte",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "ZW": "Zimbabwe"
+    },
+    "gender": {
+      "female": "Female",
+      "male": "Male",
+      "non_binary": "Non-binary",
+      "prefer_not_to_say": "Prefer not to say"
+    },
+    "goal": {
+      "hydration": "Hydration",
+      "brightening": "Brightening",
+      "firmness": "Firmness",
+      "calm_redness": "Calmer-looking redness",
+      "pore_visibility": "Less visible pores",
+      "anti_aging": "Fine lines",
+      "oil_control": "Oil control",
+      "texture": "Smoother texture"
+    },
+    "level": {
+      "beginner": "Just starting",
+      "intermediate": "I have a routine",
+      "advanced": "Skincare enthusiast"
+    },
+    "budget": {
+      "low": "Under NT$500",
+      "mid": "NT$500–1,500",
+      "high": "Over NT$1,500"
+    },
+    "texture": {
+      "gel": "Gel",
+      "lotion": "Lotion",
+      "cream": "Cream",
+      "oil": "Oil",
+      "balm": "Balm"
+    },
+    "ingredient": {
+      "fragrance": "Fragrance",
+      "alcohol": "Alcohol",
+      "essential_oils": "Essential oils",
+      "retinoids": "Retinoids (retinol)",
+      "exfoliating_acids": "Exfoliating acids (AHA/BHA)",
+      "vitamin_c": "Vitamin C",
+      "benzoyl_peroxide": "Benzoyl peroxide",
+      "niacinamide": "Niacinamide"
+    },
+    "reaction": {
+      "stinging": "Stinging",
+      "redness": "Redness",
+      "breakouts": "Breakouts",
+      "dryness": "Dryness",
+      "itching": "Itching",
+      "other": "Something else"
+    },
+    "severity": {
+      "mild": "Mild",
+      "moderate": "Moderate",
+      "severe": "Strong"
+    },
+    "category": {
+      "cleanser": "Cleanser",
+      "toner": "Toner",
+      "serum": "Serum",
+      "moisturizer": "Moisturizer",
+      "sunscreen": "Sunscreen",
+      "treatment": "Treatment",
+      "mask": "Mask",
+      "other": "Other"
+    },
+    "stepType": {
+      "cleanse": "Cleanse",
+      "tone": "Tone",
+      "serum": "Serum",
+      "treat": "Treatment",
+      "moisturize": "Moisturize",
+      "protect": "Sunscreen",
+      "mask": "Mask",
+      "other": "Other step"
+    },
+    "actives": {
+      "retinoid": "Retinoid",
+      "aha": "AHA",
+      "bha": "BHA",
+      "pha": "PHA",
+      "vitamin_c": "Vitamin C",
+      "niacinamide": "Niacinamide",
+      "benzoyl_peroxide": "Benzoyl peroxide",
+      "azelaic_acid": "Azelaic acid",
+      "hyaluronic_acid": "Hyaluronic acid",
+      "ceramides": "Ceramides",
+      "peptides": "Peptides",
+      "sulfur": "Sulfur",
+      "fragrance": "Fragrance",
+      "alcohol_denat": "Drying alcohol",
+      "essential_oils": "Essential oils",
+      "unknown": "Not sure"
+    },
+    "useTime": {
+      "am": "Morning",
+      "pm": "Evening",
+      "both": "Morning & evening"
+    },
+    "productStatus": {
+      "active": "In use",
+      "paused": "Paused",
+      "finished": "Finished"
+    },
+    "persona": {
+      "gentle": {
+        "name": "Gentle",
+        "description": "Warm and encouraging, like a friend who knows skincare."
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Calm and precise, explains the why in a sentence."
+      },
+      "strict_coach": {
+        "name": "Strict coach",
+        "description": "Direct about consistency, never shaming."
+      }
+    }
+  },
+  "legal": {
+    "terms": {
+      "title": "Terms of Service"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "notice": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+    "placeholder": "The full text will be published here before launch.",
+    "version": "Version {{version}}"
+  },
+  "drawer": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "gallery": "Gallery (dev)",
+    "close": "Close menu",
+    "products": "My products"
+  },
+  "routine": {
+    "title": {
+      "am": "Morning routine",
+      "pm": "Evening routine"
+    },
+    "steps": "{{count}} steps",
+    "progress": "{{done}} of {{total}} steps",
+    "skip": "Skip",
+    "skipped": "Skipped",
+    "finish": "Finish routine",
+    "finishHint": "Tick at least one step to finish.",
+    "doneTitle": "Done for today",
+    "doneMessage": {
+      "am": "See you this evening.",
+      "pm": "Rest well. See you tomorrow."
+    },
+    "complete": "Routine complete",
+    "savedOffline": "Saved on this phone. It will sync when you're online.",
+    "notFound": "This routine doesn't exist.",
+    "emptyTitle": "No steps yet",
+    "emptyMessage": "Your routine will show up here once it is ready.",
+    "submitError": "Your routine wasn't saved. Please try again."
+  },
+  "scan": {
+    "quality": {
+      "no_face": "Let's see your face in the oval",
+      "multiple_faces": "Just you in the frame, please",
+      "face_too_small": "Come a little closer",
+      "face_too_large": "Move back a little",
+      "face_off_center": "Center your face in the oval",
+      "face_tilted": "Look straight at the camera",
+      "too_dark": "Too dark: try facing a window",
+      "overexposed": "Too bright: step away from direct light",
+      "uneven_light": "Light is only on one side: face the light",
+      "low_contrast": "Lighting is flat: try a brighter room",
+      "blurry": "Looks blurry: wipe the lens and hold still"
+    },
+    "capture": {
+      "starting": "Starting the camera…",
+      "hold": "Hold still…",
+      "ready": "Looking good. Take the photo when ready.",
+      "shutter": "Take photo",
+      "tips": "Face a window, no filters, hair off your face, relaxed expression.",
+      "faceCheckUnavailable": "Face check unavailable on this device",
+      "permissionTitle": "Camera access needed",
+      "permissionBody": "Your weekly scan takes one photo of your face. Photos are kept private and only used for your skin analysis.",
+      "allowCamera": "Allow camera",
+      "openSettings": "Open settings",
+      "noCameraTitle": "No front camera found",
+      "noCameraBody": "This device doesn't have a front camera we can use.",
+      "cameraErrorTitle": "The camera couldn't start"
+    },
+    "errors": {
+      "capture_failed": "The photo didn't come out. Let's try again.",
+      "upload_failed": "The photo couldn't be uploaded. Please try again.",
+      "offline": "You're offline. Reconnect and try again.",
+      "generic": "Something went wrong on our side. Your weekly scan hasn't been used.",
+      "disabled": "The camera test is turned off on this server.",
+      "unauthorized": "Your session expired. Please sign in again.",
+      "consent_required": "Photo analysis needs your consent. You can turn it on in Privacy & consent.",
+      "not_due": "Your next scan isn't due yet.",
+      "in_progress": "A scan is already running. Give it a moment.",
+      "unavailable": "Skin analysis is unavailable right now. We've been notified; please try later.",
+      "image_too_large": "That photo is too large. Please take it again.",
+      "rate_limited": "Too many scans at once. Please wait a minute and try again.",
+      "timeout": "The analysis took too long. Nothing was saved; let's try again.",
+      "provider_failed": "The analysis didn't complete. Nothing was saved; let's try again.",
+      "invalid_result": "We couldn't read the analysis result. Nothing was saved; please try again."
+    },
+    "disclaimer": "This is general skincare guidance, not medical advice.",
+    "retry": "Try the scan again",
+    "notDue": {
+      "body": "Your weekly scan is one photo, once a week, so your skin has time to change between check-ins."
+    },
+    "arrival": {
+      "firstTitle": "Your first scan",
+      "body": "One clear photo of your face, then your Beauty Director writes this week's review. It takes about a minute.",
+      "start": "Start the scan"
+    },
+    "progress": {
+      "uploading": "Uploading your photo…",
+      "analyzing": "Analyzing your photo…",
+      "reviewing": "Your Beauty Director is writing the review…",
+      "step": "Step {{current}} of {{total}}",
+      "hint": "Keep the app open. This usually takes a few seconds.",
+      "slow": "This can take up to a minute. Thanks for your patience."
+    },
+    "consentOff": {
+      "title": "Photo analysis is off",
+      "body": "Weekly scans need your permission to analyze your photo. You can turn it back on in Privacy & consent."
+    }
+  },
+  "cameraTest": {
+    "devBadge": "DEV",
+    "devOnly": "Camera test is only available in development builds.",
+    "uploading": "Uploading…",
+    "analyzing": "Analyzing…",
+    "nothingSaved": "Nothing here is saved to your scan history. The photo is deleted after analysis.",
+    "verdictOk": "Valid result: all core metrics present",
+    "verdictInvalid": "Invalid result: {{reason}}",
+    "model": "Model {{model}} · {{ms}} ms",
+    "metricsTitle": "Normalized metrics (v1)",
+    "liveScoresTitle": "Live QA numbers at capture",
+    "rawTitle": "Raw provider response",
+    "retake": "Take another"
+  },
+  "chat": {
+    "title": "Beauty Director",
+    "welcome": {
+      "title": "Hi, I'm your Beauty Director",
+      "message": "I remember your routine, your products and your latest check-in. Ask me anything, or start with one of these.",
+      "q1": "What should I do tonight?",
+      "q2": "Is my routine too much?",
+      "q3": "How was my last check-in?"
+    },
+    "composer": {
+      "label": "Message",
+      "placeholder": "Ask about your routine or products",
+      "send": "Send",
+      "counter": "{{count}} / {{max}}"
+    },
+    "typing": "Beauty Director is typing",
+    "retry": "Retry",
+    "suggestedBy": "Suggested by your Beauty Director",
+    "blocks": {
+      "accept": "Accept",
+      "decline": "Not now",
+      "confirm": "Confirm",
+      "applied": "Applied",
+      "declined": "Declined",
+      "open": "Open product",
+      "addProduct": "Add to my products",
+      "proposalTitle": "{{period}} routine update",
+      "changeTitle": "Update your profile?",
+      "added": "+ {{step}}",
+      "removed": "− {{step}}",
+      "moved": "{{step}} → step {{position}}",
+      "fields": {
+        "goals": "Goals",
+        "routine_level": "Routine experience",
+        "budget": "Budget",
+        "textures": "Textures",
+        "status": "Status",
+        "use_time": "When to use",
+        "key_actives": "Key ingredients",
+        "opened_at": "Opened on"
+      },
+      "change": {
+        "field": "{{field}}: {{value}}",
+        "product": "{{product}} · {{field}}: {{value}}",
+        "reaction": "Record a reaction: {{reaction}} ({{severity}}) to {{target}}",
+        "resolved": "Mark this reaction as resolved",
+        "separator": ", "
+      },
+      "scanTitle": "Check-in on {{date}}",
+      "before": "Now",
+      "after": "Proposed",
+      "metric": "{{label}} {{value}}, {{trend}}",
+      "trend": {
+        "up": "improving",
+        "down": "a little lower",
+        "flat": "about the same",
+        "none": "first measurement"
+      }
+    },
+    "errors": {
+      "offline": "You're offline. Your message is kept in the box; send it again when you're back.",
+      "generic": "Something went wrong. Please try again.",
+      "rate_limited": "That's a lot of messages for one hour. Let's continue a little later.",
+      "thread_busy": "Your Beauty Director is still replying. One moment.",
+      "message_too_long": "Please keep a message under 1 000 characters.",
+      "already_acted": "That one was already applied.",
+      "unavailable": "Your Beauty Director is unavailable right now. Please try again later.",
+      "timeout": "That took too long. Please try again."
+    }
+  },
+  "products": {
+    "title": "My products",
+    "add": "Add a product",
+    "addTitle": "Add a product",
+    "editTitle": "Edit product",
+    "edit": "Edit {{name}}",
+    "save": "Save",
+    "group": {
+      "active": "In use",
+      "paused": "Paused",
+      "finished": "Finished"
+    },
+    "useTime": "When do you use it?",
+    "actives": "Key actives",
+    "activesHelper": "Pick what the label says. Choose \"Not sure\" if you don't know; your Beauty Director will ask before combining it with anything new.",
+    "ingredients": "Ingredients (optional)",
+    "ingredientsHelper": "Paste the ingredient list from the package.",
+    "openedAt": "Opened on (optional)",
+    "openedAtHelper": "Year-month-day, for example 2026-03-15.",
+    "status": "Status",
+    "empty": {
+      "title": "No products yet",
+      "message": "Add what you use now, and your Beauty Director can build around it."
+    },
+    "validation": {
+      "ingredientsLong": "The ingredient list is too long (2 000 characters max).",
+      "date": "Enter a real past date as year-month-day."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "basics": "Basic info",
+    "basicsSubtitle": "Name, birth date and gender",
+    "skin": "Skin profile",
+    "skinSubtitle": "Goals, experience, budget, reactions",
+    "products": "My products",
+    "productsSubtitle": "What you use now",
+    "password": "Change password",
+    "passwordSubtitle": "For email or phone sign-in",
+    "methods": "Sign-in methods",
+    "methodsSubtitle": "Phone, LINE, email",
+    "passwordTitle": "Change password",
+    "passwordSaved": "Your password was changed.",
+    "methodsTitle": "Sign-in methods",
+    "linked": "Linked",
+    "notLinked": "Not linked",
+    "add": "Add",
+    "emailSoon": "Adding an email sign-in arrives once email delivery is set up.",
+    "phoneTitle": "Add phone sign-in",
+    "phoneMessage": "We'll text a 6-digit code to confirm the number. It then works to sign in with your current password.",
+    "sendCode": "Send code",
+    "codeMessage": "Enter the code we just sent."
+  },
+  "skinProfile": {
+    "title": "Skin profile",
+    "subtitle": "What your Beauty Director builds on. Tap a section to change it.",
+    "edit": "Edit {{section}}",
+    "none": "Nothing set yet"
+  },
+  "notifications": {
+    "channel": "Reminders",
+    "am": {
+      "title": "Good morning",
+      "body": "Your morning routine is ready when you are."
+    },
+    "pm": {
+      "title": "Evening routine",
+      "body": "Your evening routine is ready when you are."
+    },
+    "scan": {
+      "title": "Weekly scan",
+      "body": "Your next weekly scan is open whenever you'd like."
+    }
+  },
+  "privacy": {
+    "title": "Privacy & consent",
+    "intro": "Change these whenever you like. Each choice is saved with its date.",
+    "accepted": "Accepted · version {{version}} · {{date}}",
+    "notRecorded": "Not recorded yet.",
+    "termsWithdraw": "To stop using the app under these terms, delete your account in Settings.",
+    "photoOff": "Weekly scans are paused while this is off. Your past results stay.",
+    "changed": "Last changed {{date}}"
+  }
+}
