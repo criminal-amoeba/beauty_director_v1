@@ -1,0 +1,17 @@
+{
+  // Type-checks the pure server modules (Deno-style `.ts` imports) with the app's TypeScript.
+  // Entry files (`*/index.ts`) use Deno globals and npm: specifiers, so they stay out; Supabase bundles them.
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "types": ["jest", "node"],
+    "skipLibCheck": true
+  },
+  "include": ["_shared/**/*.ts", "*/handler.ts", "*/sms.ts", "*/__tests__/*.ts"],
+  "exclude": ["**/index.ts"]
+}
